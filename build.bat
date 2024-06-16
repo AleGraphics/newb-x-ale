@@ -1,11 +1,11 @@
 @echo off
 
-set MBT=env\bin\MaterialBinTool-0.8.2-native-image.exe
+set MBT=env\bin\MaterialBinTool-0.9.0-native-image.exe
 set SHADERC=env\bin\shaderc.exe
 
 set MBT_ARGS=--compile --shaderc %SHADERC% --include include/
 
-set DATA_VER=1.20.0
+set DATA_VER=1.20.80
 set DATA_DIR=data/%DATA_VER%
 set BUILD_DIR=build
 set MATERIALS_DIR=materials
